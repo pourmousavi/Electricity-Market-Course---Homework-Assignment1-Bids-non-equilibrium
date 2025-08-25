@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/a1226603/Library/CloudStorage/Box-Box/Teaching/ELEC ENG 4087-7087/25/Assessment/Homework Assignment/HA 1/Dashboard/Dashboard_HA1/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy._configtool import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
